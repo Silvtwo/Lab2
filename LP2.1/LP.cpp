@@ -16,10 +16,10 @@ int main(){
 	cin >> A;
 	cout << "B:";
 	cin >> B;
-	Z1 = pow((cos(A) - cos(B)), 2) - pow((sin(A) - sin(B)), 2);
-	cout << "Z1=" << Z1;
-	//Z2 = -4*(sin((A-B)/2)*sin((A-B)/2)) * cos(A+B);
-	//cout << "\nZ2=" << Z2;
+	//Z1 = pow((cos(A) - cos(B)), 2) - pow((sin(A) - sin(B)), 2);
+	//cout << "Z1=" << Z1;
+	Z2 = -4*(sin((A-B)/2)*sin((A-B)/2)) * cos(A+B);
+	cout << "\nZ2=" << Z2;
 
 
 
